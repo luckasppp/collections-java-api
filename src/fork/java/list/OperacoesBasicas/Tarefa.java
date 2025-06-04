@@ -20,7 +20,7 @@ public class Tarefa {
         return "\t" + "[\n" +
                 "\t" + "\t" + "Classe: " + this.getClass().getName() + "\n" +
                 "\t" + "\t" + "Descricao = " + this.descricao + "\n" +
-                "\t" + "\t" + "DashCode = " + Integer.toHexString(this.hashCode()) + "\n" +
+                "\t" + "\t" + "HashCode = " + Integer.toHexString(this.hashCode()) + "\n" +
                 "\t" + "]" +
                 "\n";
     }
